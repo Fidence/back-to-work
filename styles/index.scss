@@ -1,0 +1,141 @@
+.mechanic {
+  &_showcase {
+    background-image: url("../public/Images/Group\ 9781.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 75vh;
+    &_socials {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      padding-top: 3rem;
+      width: 10%;
+      height: 65%;
+      .social_icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 41px;
+        height: 41px;
+        border-radius: 50%;
+        background: #262626;
+        .fa-brands {
+          font-size: 23px;
+          color: $primary;
+        }
+      }
+    }
+    &_text {
+      text-align: center;
+      .fast {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 90px;
+        letter-spacing: 0.01em;
+        color: #ffffff;
+      }
+    }
+    &_btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 3rem;
+      margin-top: 2rem;
+      .bton {
+        all: unset;
+        color: $primary;
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 0.01em;
+      }
+      .booking {
+        width: 144px;
+        height: 41px;
+        border-radius: 4px;
+        background-color: $btn;
+      }
+    }
+  }
+  &_search {
+    background-color: #000;
+    height: 144px;
+    &_sub {
+      width: 80%;
+      height: 100%;
+      margin: 0 auto;
+      background: rgba(250, 250, 250, 0.2);
+      backdrop-filter: blur(17px);
+      border-radius: 10px 10px 0px 0px;
+      .search_wrapper {
+        width: 90%;
+        margin: 0 auto;
+        padding: 1.5rem;
+        .cars {
+          margin-bottom: 1rem;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 23px;
+          letter-spacing: 0.01em;
+          color: $primary;
+        }
+        &_flex {
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+
+          &_right {
+            width: 520px;
+            height: 46px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid $primary;
+
+            .frist {
+              display: flex;
+              align-items: center;
+              gap: 0.4rem;
+              .fa-search {
+                font-family: "DM Sans";
+                font-style: normal;
+                color: #999999;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 18px;
+                letter-spacing: 0.01em;
+
+                /* Text Colors/45 */
+              }
+              input {
+                color: #999999;
+                all: unset;
+              }
+            }
+          }
+          &_left {
+            display: flex;
+            gap: 1rem;
+            .brand_model {
+              display: flex;
+              align-self: auto;
+              width: 135px;
+              height: 36px;
+              background: #999999;
+              border-radius: 4px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

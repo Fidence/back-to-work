@@ -1,0 +1,124 @@
+.header {
+  background-color: black;
+  color: white;
+  width: 100%;
+
+  &-nav {
+    .nav_link {
+      position: relative;
+      width: 80%;
+      margin: 0 auto;
+      display: flex;
+      padding: 0.6rem 1rem;
+      align-items: center;
+      justify-content: space-between;
+      background-color: black;
+      .navbar {
+        .nav_item {
+          display: flex;
+          align-items: center;
+          gap: 1.5rem;
+          padding: 0;
+          margin: 0;
+          li {
+            list-style: none;
+            margin: 0;
+            a {
+              text-decoration: none;
+              color: white;
+            }
+          }
+        }
+      }
+      .navbar1 {
+        display: none;
+      }
+
+      .nav_img {
+        width: 43.13px;
+        height: 49px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .nav_toggle {
+        display: flex;
+        // align-items: center;
+        color: white;
+        .nav-shopin {
+          display: flex;
+          align-items: center;
+
+          .cart {
+            i {
+              margin-right: 0.4rem;
+              font-size: 18px;
+            }
+          }
+          .cart1 {
+            margin-left: 1.5rem;
+            i {
+              margin-right: 0.4rem;
+              font-size: 18px;
+            }
+          }
+        }
+        .togglee {
+          margin-left: 1.5rem;
+          .fa-bars,
+          .fa-times {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+    @media screen and (max-width: 992px) {
+      .nav_link {
+        width: 100%;
+        .navbar {
+          display: none;
+        }
+        .navbar1 {
+          display: block;
+          position: absolute;
+          background-color: red;
+          width: 100%;
+          height: 10rem;
+          top: 100%;
+          left: 0;
+          right: 0;
+          // background-color: #000;
+          .nav_item {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            padding: 0;
+            margin: 0;
+            li {
+              list-style: none;
+              margin: 0;
+              a {
+                text-decoration: none;
+                color: white;
+              }
+            }
+          }
+          .nav_active {
+            background-color: black;
+          }
+        }
+        .nav-toggle {
+          .nav-shopin {
+            .cart {
+              span {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
