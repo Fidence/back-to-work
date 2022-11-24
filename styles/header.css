@@ -1,0 +1,117 @@
+.header {
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+.header-nav {
+  position: relative;
+}
+
+.header-nav .nav_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.6rem 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: black;
+}
+
+.header-nav .nav_link .nav-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.header-nav .nav_link .nav-item li {
+  list-style: none;
+  margin: 0;
+}
+
+.header-nav .nav_link .nav-item li a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-nav .nav_link .nav-img {
+  width: 43.13px;
+  height: 48px;
+}
+
+.header-nav .nav_link .nav-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.header-nav .nav_link .nav-shopin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+.header-nav .nav_link .nav-shopin .cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-nav .nav_link .nav-shopin .cart i {
+  margin-right: 0.4rem;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.header-nav .nav_link .nav-toggle {
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 920px) {
+  .header-nav .nav_link .nav-toggle {
+    display: block;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 1rem;
+  }
+  .header-nav .nav_link .nav-item {
+    background: #000;
+    height: 90vh;
+    gap: 1.5rem;
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: -10%;
+  }
+  .header-nav .nav_link .nav-item li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .header-nav .nav_link .nav-item li a {
+    text-decoration: none;
+    color: white;
+  }
+}
+/*# sourceMappingURL=header.css.map */

@@ -25,7 +25,7 @@ const Home = () => {
             </div>
           </div>
           <div className="mechanic_showcase_text">
-            <p className="fast">Fast & Reliable Car Service</p>
+            <h1>Fast & Reliable Car Service</h1>
           </div>
           <div className="mechanic_showcase_btn">
             <button className="booking bton">Book Serciving</button>
@@ -39,7 +39,7 @@ const Home = () => {
               <div className="search_wrapper_flex">
                 <div className="search_wrapper_flex_right">
                   <div className="frist">
-                    <i className="fa-regular fa-chevron-down"></i>
+                    <i className="fa-solid fa-search"></i>
                     <input type="text" placeholder="search" />
                   </div>
                   <div className="brand_model">
@@ -48,6 +48,10 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="search_wrapper_flex_left">
+                  <div className="brand_model">
+                    <span>Brand Names</span>
+                    <i className="fa-solid fa-chevron-down"></i>
+                  </div>
                   <div className="model">
                     <span>Model</span>
                     <i className="fa-solid fa-chevron-down"></i>
@@ -56,10 +60,10 @@ const Home = () => {
                     <span>Year</span>
                     <i className="fa-solid fa-chevron-down"></i>
                   </div>
-                  <div className="model">
+                  <div className="part">
                     <span>Parts</span>
                   </div>
-                  <div className="model">
+                  <div className="check">
                     <span>Check Prices</span>
                   </div>
                 </div>
@@ -67,6 +71,83 @@ const Home = () => {
             </div>
           </div>
         </div>
+        <div className="mechanic_marketplace">
+          <div className="mechanic_marketplace_left">
+            <div className="left_inner">
+              <div className="who">
+                <hr className="line" />
+                <span className="span">Who We Are</span>
+              </div>
+              <div className="left_inner_text1">
+                We are a <br /> marketplace for all <br /> automobile services
+              </div>
+              <div className="left_inner_text2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor
+                quis consectetur euismod elit sollicitudin. Dolor at met sed.
+                Eget ridiculus nunc ornare eget malesuada. Orci nunc urna cursus
+                vitae mauris. Eu in tincidunt tellus lectus pellac id
+                consectetur neque nulla platea fames fermentum et. At diam.
+              </div>
+
+              <div className="left_inner_icon">
+                <div className="red_icon">
+                  <i className="fa-solid fa-play"></i>
+                </div>
+                <p>Learn More</p>
+              </div>
+            </div>
+          </div>
+          <div className="marketplace_right">
+            <img src="/Images/samuele-errico.png" alt="" />
+          </div>
+        </div>
+
+        <div className="mechanic_feature ">
+          <div className="line-feature">
+            <hr className="line" />
+            <span className="span">Our Key Features</span>
+            <hr className="line" />
+          </div>
+          <div className="container mechanic_feature_flex ">
+            <div className="flex_boxx">
+              <img src="/Images/layer 1.png" alt="" />
+              <p className="free-bold">Free Diagnostics</p>
+              <p className=" free-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Malesuada consequat commodo consectetur tristique venenatis
+                egestas. Fauci.
+              </p>
+            </div>
+            <div className="flex_boxx">
+              <img src="/Images/layer 1.png" alt="" />
+              <p className="free-bold">Free Diagnostics</p>
+              <p className=" free-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Malesuada consequat commodo consectetur tristique venenatis
+                egestas. Fauci.
+              </p>
+            </div>
+            <div className="flex_boxx">
+              <img src="/Images/layer 2.png" alt="" />
+              <p className="free-bold">Free Diagnostics</p>
+              <p className=" free-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Malesuada consequat commodo consectetur tristique venenatis
+                egestas. Fauci.
+              </p>
+            </div>
+            <div className="flex_boxx">
+              <img src="/Images/layer 3.png" alt="" />
+              <p className="free-bold">Free Diagnostics</p>
+              <p className=" free-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Malesuada consequat commodo consectetur tristique venenatis
+                egestas. Fauci.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="mechanic_service">efefefefefefe</div>
       </div>
     </Layout>
   );
