@@ -98,7 +98,10 @@ const Home = () => {
             </div>
           </div>
           <div className="marketplace_right">
-            <img src="/Images/samuele-errico.png" alt="" />
+            <img
+              src="/Images/samuele-errico-piccarini-FMbWFDiVRPs-unsplash 2.png"
+              alt=""
+            />
           </div>
         </div>
 
@@ -147,7 +150,66 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="mechanic_service">efefefefefefe</div>
+        <div className="mechanic_services">
+          <img className="fixedimg" src="/Images/Vector (3).png" alt="" />
+          <div className="mechanic_services_wrapper">
+            <div className="container_img">
+              <img src="/Images/Group 9778.png" alt="" />
+            </div>
+            <div className="container_boxes">
+              <div className="container_boxes_services">
+                <hr className="line" />
+                <span className="span">Our Services</span>
+              </div>
+              <p className="services_txt">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <p className="services_txt">
+                Tempor quis consectetur euismod elit sollicitudin.
+              </p>
+              <div className="services_cate">
+                <div className="dept">
+                  <div className="square"></div>
+                  <p className="garage">Garrage:</p>
+                  <p className="dept_txt">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Malesuada consequat commodo consectetur tristique venenatis
+                    egestas. Fauci.
+                  </p>
+                </div>
+                <div className="dept">
+                  <div className="square"></div>
+                  <p className="garage">Garrage:</p>
+                  <p className="dept_txt">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Malesuada consequat commodo consectetur tristique venenatis
+                    egestas. Fauci.
+                  </p>
+                </div>
+              </div>
+              <div className="services_cate">
+                <div className="dept">
+                  <div className="square"></div>
+                  <p className="garage">Garrage:</p>
+                  <p className="dept_txt">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Malesuada consequat commodo consectetur tristique venenatis
+                    egestas. Fauci.
+                  </p>
+                </div>
+                <div className="dept">
+                  <div className="square"></div>
+                  <p className="garage">Garrage:</p>
+                  <p className="dept_txt">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Malesuada consequat commodo consectetur tristique venenatis
+                    egestas. Fauci.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </Layout>
   );

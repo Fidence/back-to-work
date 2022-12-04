@@ -113,9 +113,6 @@
             border-bottom: 1px solid $primary;
             @media screen and (max-width: 500px) {
               width: 100%;
-              // display: flex;
-              // flex-direction: column;
-              // gap: 1rem;
             }
 
             span {
@@ -273,7 +270,7 @@
       flex: 1;
       height: 100%;
       .left_inner {
-        padding: 3rem 5rem 1rem 5rem;
+        padding: 3rem 2rem 1rem 5rem;
         @media screen and (max-width: 500px) {
           padding: 2rem 1rem;
         }
@@ -417,6 +414,107 @@
           line-height: 18px;
           letter-spacing: 0.01em;
           color: #262626;
+        }
+      }
+    }
+  }
+  &_services {
+    .fixedimg {
+      position: absolute;
+      width: 350px;
+      top: 190%;
+      right: 0;
+      z-index: -100000;
+    }
+    &_wrapper {
+      display: flex;
+      .container_img {
+        height: 900px;
+        img {
+          height: 100%;
+        }
+        @media screen and (max-width: 922px) {
+          display: none;
+        }
+      }
+      .container_boxes {
+        margin-left: 2rem;
+        padding: 1.5rem;
+        &_services {
+          display: flex;
+          align-items: baseline;
+          margin: 1rem 0;
+          .span {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 31px;
+            letter-spacing: 0.01em;
+            color: $secondary;
+          }
+          .line {
+            width: 55px;
+            height: 3px;
+            opacity: 1;
+            background: $secondary;
+          }
+        }
+        .services_txt {
+          font-family: "DM Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 25px;
+          letter-spacing: 0.01em;
+          color: #262626;
+        }
+        .services_cate {
+          display: flex;
+          margin-top: 1.5rem;
+          gap: 0rem;
+
+          .dept {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            padding: 1.5rem;
+            width: 333px;
+            height: 286px;
+            background: #ffffff;
+            border: 1px solid #e5e5e5;
+            .square {
+              width: 54px;
+              height: 54px;
+              border: 2px solid #999999;
+              border-radius: 2px;
+            }
+            .garage {
+              font-style: normal;
+              font-weight: 700;
+              font-size: 18px;
+              line-height: 23px;
+              letter-spacing: 0.01em;
+              color: #262626;
+            }
+            .dept_txt {
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              letter-spacing: 0.01em;
+              color: #999999;
+            }
+          }
+          @media screen and (max-width: 500px) {
+            flex-direction: column;
+            .dept {
+              width: 100%;
+            }
+          }
+        }
+        @media screen and (max-width: 500px) {
+          margin-left: 0rem;
+          padding: 1rem;
         }
       }
     }
