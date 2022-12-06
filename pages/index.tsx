@@ -156,7 +156,7 @@ const Home = () => {
             <div className="container_img">
               <img src="/Images/Group 9778.png" alt="" />
             </div>
-            <div className="container_boxes">
+            <div className=" container_boxes">
               <div className="container_boxes_services">
                 <hr className="line" />
                 <span className="span">Our Services</span>
@@ -167,7 +167,25 @@ const Home = () => {
               <p className="services_txt">
                 Tempor quis consectetur euismod elit sollicitudin.
               </p>
-              <div className="services_cate">
+              <div className=" services_cate">
+                <div className="dept">
+                  <div className="square"></div>
+                  <p className="garage">Garrage:</p>
+                  <p className="dept_txt">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Malesuada consequat commodo consectetur tristique venenatis
+                    egestas. Fauci.
+                  </p>
+                </div>
+                <div className="dept">
+                  <div className="square"></div>
+                  <p className="garage">Garrage:</p>
+                  <p className="dept_txt">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Malesuada consequat commodo consectetur tristique venenatis
+                    egestas. Fauci.
+                  </p>
+                </div>
                 <div className="dept">
                   <div className="square"></div>
                   <p className="garage">Garrage:</p>
@@ -187,26 +205,81 @@ const Home = () => {
                   </p>
                 </div>
               </div>
-              <div className="services_cate">
-                <div className="dept">
-                  <div className="square"></div>
-                  <p className="garage">Garrage:</p>
-                  <p className="dept_txt">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Malesuada consequat commodo consectetur tristique venenatis
-                    egestas. Fauci.
-                  </p>
-                </div>
-                <div className="dept">
-                  <div className="square"></div>
-                  <p className="garage">Garrage:</p>
-                  <p className="dept_txt">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Malesuada consequat commodo consectetur tristique venenatis
-                    egestas. Fauci.
-                  </p>
-                </div>
-              </div>
+            </div>
+          </div>
+        </div>
+        <div className="mechanic_choose">
+          <div className="line-feature">
+            <hr className="line" />
+            <span className="span">Our Key Features</span>
+            <hr className="line" />
+          </div>
+          <div className="container mechanic_choose_boxes">
+            <div className="choose_box">
+              <p className="choose_box_txt">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Malesuada consequat commodo consectetur tristique venenatis
+                egestas. Faucibus vestibulum sed tincidunt eget enim ut pretium.
+                Erat consequat pellentesque dapibus amet amet, eget ante leo.
+                Vulputate vitae orci, nisl sit. Viverra viverra consequat ut
+                nibh sit eget. Maecenas nibh dui odio leo. Est nisl massa tellus
+                amet.
+              </p>
+              <p className=" choose_box_header">24hr Support</p>
+            </div>
+            <div className="choose_box">
+              <p className="choose_box_txt">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Malesuada consequat commodo consectetur tristique venenatis
+                egestas. Faucibus vestibulum sed tincidunt eget enim ut pretium.
+                Erat consequat pellentesque dapibus amet amet, eget ante leo.
+                Vulputate vitae orci, nisl sit. Viverra viverra consequat ut
+                nibh sit eget. Maecenas nibh dui odio leo. Est nisl massa tellus
+                amet.
+              </p>
+              <p className="choose_box_header">24hr Support</p>
+            </div>
+            <div className="choose_box">
+              <p className="choose_box_txt">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Malesuada consequat commodo consectetur tristique venenatis
+                egestas. Faucibus vestibulum sed tincidunt eget enim ut pretium.
+                Erat consequat pellentesque dapibus amet amet, eget ante leo.
+                Vulputate vitae orci, nisl sit. Viverra viverra consequat ut
+                nibh sit eget. Maecenas nibh dui odio leo. Est nisl massa tellus
+                amet.
+              </p>
+              <p className="choose_box_header">24hr Support</p>
+            </div>
+          </div>
+        </div>
+        <div className=" container mechanic_brands">
+          <div className="line_brand">
+            <hr className="line" />
+            <span className="span">Our Key Features</span>
+            <hr className="line" />
+          </div>
+          <div className="container mechanic_brands_boxes">
+            <div className="brands_imgs">
+              <img src="/Images/Union.png" alt="" />
+            </div>
+            <div className="brands_imgs">
+              <img
+                src="/Images/261-2616167_we-service-all-skoda-models-skoda-logo-black 1.png"
+                alt=""
+              />
+            </div>
+            <div className="brands_imgs">
+              <img src="/Images/Union1.png" alt="" />
+            </div>
+            <div className="brands_imgs">
+              <img src="/Images/Union2.png" alt="" />
+            </div>
+            <div className="brands_imgs">
+              <img src="/Images/Union3.png" alt="" />
+            </div>
+            <div className="brands_imgs">
+              <img src="/Images/Vector2.png" alt="" />
             </div>
           </div>
         </div>
