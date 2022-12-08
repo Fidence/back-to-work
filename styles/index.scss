@@ -1,5 +1,6 @@
 .mechanic {
   height: 100%;
+  background-color: #ffffff;
   &_showcase {
     background-image: url("../public/Images/Group\ 9781.png");
     background-position: center;
@@ -342,7 +343,7 @@
   }
 
   &_feature {
-    margin: 2rem 0;
+    margin-top: 3rem;
     background-color: $primary;
     .line-feature {
       display: flex;
@@ -419,6 +420,7 @@
     }
   }
   &_services {
+    margin-top: 3rem;
     .fixedimg {
       position: absolute;
       width: 350px;
@@ -427,7 +429,6 @@
       z-index: -100000;
     }
     &_wrapper {
-      background-color: green;
       display: flex;
       .container_img {
         height: 900px;
@@ -441,7 +442,8 @@
       .container_boxes {
         margin-top: 1.5rem;
         padding: 1rem 2.5rem;
-        background-color: red;
+
+        width: 100%;
         &_services {
           display: flex;
           align-items: baseline;
@@ -474,8 +476,6 @@
           display: grid;
           grid-template-columns: repeat(2, 1fr);
           margin-top: 1.5rem;
-
-          gap: 0;
 
           .dept {
             display: flex;
@@ -638,7 +638,6 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color: red;
       gap: 1.3rem;
 
       @media screen and (max-width: 992px) {
@@ -648,6 +647,181 @@
       @media screen and (max-width: 500px) {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  }
+  &_reviews {
+    margin-top: 3rem;
+    padding: 2rem;
+    height: 700px;
+    background: url("/Images/Background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .line_reviews {
+      display: flex;
+      align-items: baseline;
+      margin: 1rem 0;
+      .span {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 31px;
+        letter-spacing: 0.01em;
+        color: $primary;
+      }
+      .line {
+        width: 55px;
+        height: 3px;
+        opacity: 1;
+        background: $primary;
+      }
+    }
+    .review_header {
+      font-style: normal;
+      font-weight: 500;
+      letter-spacing: 0.01em;
+      color: #fafafa;
+    }
+    .customers_reviews {
+      margin-top: 2rem;
+      display: flex;
+      gap: 2rem;
+      .customers {
+        width: 360px;
+        height: 360px;
+        background: rgba(255, 255, 255, 0.1);
+        border: 2px solid #fafafa;
+        backdrop-filter: blur(15px);
+        border-radius: 5px;
+        padding: 1rem 1.5rem;
+        .review_img {
+          width: 100%;
+          display: flex;
+          justify-content: flex-end;
+          margin-bottom: 0.5rem;
+        }
+        .review_txt {
+          text-align: center;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 30px;
+          letter-spacing: 0.01em;
+          color: $primary;
+        }
+        .review_indiviuals {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-top: 1.5rem;
+
+          .review_name {
+            text-align: center;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 30px;
+            letter-spacing: 0.01em;
+            color: $primary;
+          }
+        }
+      }
+    }
+  }
+  &_blogs {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .blog_line {
+      display: flex;
+      align-items: baseline;
+      margin: 1rem 0;
+      .span {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 31px;
+        letter-spacing: 0.01em;
+        color: $secondary;
+      }
+      .line {
+        width: 55px;
+        height: 3px;
+        opacity: 1;
+        background: $secondary;
+      }
+    }
+    .blog_header {
+      font-style: normal;
+      font-weight: 500;
+      letter-spacing: 0.01em;
+      color: $text_dark;
+    }
+    .blog_post {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+      margin-top: 2rem;
+      &_box {
+        width: 340px;
+        &_img {
+          width: 100%;
+          img {
+            width: 100%;
+          }
+        }
+        &_wrapper {
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+          padding: 1rem 0.5rem;
+          &_date {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          }
+          .date_txt {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+            letter-spacing: 0.01em;
+            color: $text;
+          }
+          .txt_blog {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            letter-spacing: 0.01em;
+            color: $text_dark;
+          }
+          &_btn {
+            all: unset;
+            width: 55px;
+            height: 19px;
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 18px;
+            text-align: center;
+            letter-spacing: 0.01em;
+            color: $btn;
+          }
+        }
+      }
+      @media screen and (max-width: 992px) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      @media screen and (max-width: 500px) {
+        grid-template-columns: repeat(1, 1fr);
       }
     }
   }

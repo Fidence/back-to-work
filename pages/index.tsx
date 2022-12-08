@@ -283,6 +283,121 @@ const Home = () => {
             </div>
           </div>
         </div>
+
+        <div className="mechanic_reviews">
+          <div className="line_reviews">
+            <hr className="line" />
+            <span className="span">Our Reviews</span>
+            <hr className="line" />
+          </div>
+          <h2 className="review_header">What Our Customers Say About Us</h2>
+          <div className="  customers_reviews">
+            <div className="customers">
+              <div className="review_img">
+                <img src="/Images/“.png" alt="" />
+              </div>
+              <p className="review_txt">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac quam
+                leo sem in in. Scelerisque feugiat quam lectus dui eget felis.
+                Tincidunt faucibus at egestas rhoncus felis faucibus
+                ullamcorper. Consequat turpis et integer commodo porta vel.
+              </p>
+              <div className="review_indiviuals">
+                <img src="/Images/unsplash_dt60oksDTx8.png" alt="" />
+                <p className="review_name">Henry Avuksh</p>
+                <p className="review_txt">Bangalore</p>
+              </div>
+            </div>
+            <div className="customers">
+              <div className="review_img">
+                <img src="/Images/“.png" alt="" />
+              </div>
+              <p className="review_txt">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac quam
+                leo sem in in. Scelerisque feugiat quam lectus dui eget felis.
+                Tincidunt faucibus at egestas rhoncus felis faucibus
+                ullamcorper. Consequat turpis et integer commodo porta vel.
+              </p>
+              <div className="review_indiviuals">
+                <div className="immg">
+                  <img src="/Images/unsplash_dt60oksDTx8.png" alt="" />
+                </div>
+                <p className="review_name">Henry Avuksh</p>
+                <p className="review_txt">Bangalore</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container mechanic_blogs">
+          <div className="blog_line">
+            <hr className="line" />
+            <span className="span">Our Blogs</span>
+            <hr className="line" />
+          </div>
+          <h2 className="blog_header">Recent Posts From Our Company</h2>
+          <div className="blog_post">
+            <div className="blog_post_box">
+              <div className="blog_post_box_img">
+                <img src="/Images/unsplash_Z20LXv50kbE.png" alt="" />
+              </div>
+              <div className="blog_post_box_wrapper">
+                <div className="blog_post_box_wrapper_date">
+                  <p className="date_txt">22 February 2022</p>
+                  <p className="date_txt">. 5 Min Read</p>
+                </div>
+                <p className="txt_blog">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <p className="date_txt">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Accumsan duis facilisi scelerisque turpis est. Aenean maecenas
+                  aliquet nec ullamcorper diam.
+                </p>
+                <button className="blog_post_box_wrapper_btn">view</button>
+              </div>
+            </div>
+            <div className="blog_post_box">
+              <div className="blog_post_box_img">
+                <img src="/Images/unsplash_Z20LXv50kbE.png" alt="" />
+              </div>
+              <div className="blog_post_box_wrapper">
+                <div className="blog_post_box_wrapper_date">
+                  <p className="date_txt">22 February 2022</p>
+                  <p className="date_txt">. 5 Min Read</p>
+                </div>
+                <p className="txt_blog">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <p className="date_txt">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Accumsan duis facilisi scelerisque turpis est. Aenean maecenas
+                  aliquet nec ullamcorper diam.
+                </p>
+                <button className="blog_post_box_wrapper_btn">view</button>
+              </div>
+            </div>
+            <div className="blog_post_box">
+              <div className="blog_post_box_img">
+                <img src="/Images/unsplash_Z20LXv50kbE.png" alt="" />
+              </div>
+              <div className="blog_post_box_wrapper">
+                <div className="blog_post_box_wrapper_date">
+                  <p className="date_txt">22 February 2022</p>
+                  <p className="date_txt">. 5 Min Read</p>
+                </div>
+                <p className="txt_blog">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <p className="date_txt">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Accumsan duis facilisi scelerisque turpis est. Aenean maecenas
+                  aliquet nec ullamcorper diam.
+                </p>
+                <button className="blog_post_box_wrapper_btn">view</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </Layout>
   );
